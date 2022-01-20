@@ -1,0 +1,23 @@
+{
+  "name": "api-req",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachinrawagent/Decathlon_clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sachinrawagent/Decathlon_clone/issues"
+  },
+  "homepage": "https://github.com/sachinrawagent/Decathlon_clone#readme",
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "nodemon": "^2.0.15"
+  }
+}

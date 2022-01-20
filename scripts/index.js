@@ -1,5 +1,5 @@
 console.log("This is the index.js is called");
-let arr = ["All Sports", 'men', 'women', 'kids'];
+let arr = ["Sports", 'men', 'women', 'kids'];
 let img = document.createElement('img');
 img.src = "https://cdncontent.decathlon.in/_next/static/images/logo-93d12d8cff484ab736d2a39f15bf66d8.svg";
 img.id = "dec_logo";

@@ -1,0 +1,17 @@
+#vai_container{
+    display: grid;
+    border: 1px solid black;
+    width: 95%;
+    grid-template-columns: 13% 85%;
+    margin: auto;
+    height: 500px;
+    grid-gap: 10px;
+}
+#vai_container>div{
+    border: 1px solid black;
+}
+#vai_show{
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: repeat(4,250px);
+}
