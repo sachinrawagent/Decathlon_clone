@@ -4,14 +4,27 @@
     width: 95%;
     grid-template-columns: 13% 85%;
     margin: auto;
-    height: 500px;
     grid-gap: 10px;
 }
 #vai_container>div{
     border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 #vai_show{
     display: grid;
     border: 1px solid black;
     grid-template-columns: repeat(4,250px);
+    grid-gap: 15px;
+}
+#vai_show>div{
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#price{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
 }
