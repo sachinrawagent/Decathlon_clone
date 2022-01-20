@@ -1,0 +1,38 @@
+#container{
+    border: 1px solid black;
+    height: 250px;
+    width: 25%;
+    margin: auto;
+    padding: 50px;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+
+}
+
+.btnnext{
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background-color: BLACK;
+    margin-bottom: 30px;
+    color: white;
+}
+.btnnext:hover{
+    background-color: black ;
+    font-weight: 550;
+}
+
+
+p{
+font-size: 23px;
+color: black;
+text-align: center;
+
+}
+
+img{
+height: 100px;
+margin-left: 130px;
+margin-top: 0px;
+}
