@@ -261,7 +261,7 @@
             "img": "https://www.decathlon.in/_next/image?url=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp1695829%2Fc61e4cfe55b41cf6262ba408715c7529%2Fp1695829.jpg%3Fformat%3Dauto&w=1920&q=75",
             "Name": "Boys' Thermal Jacket 500 - Blue/Black",
             "price": "899",
-            "Rating": "4.5",
+            "Rating": "4.5/5",
             "id": "jacket",
             "MRP":"499"
           },
@@ -269,7 +269,7 @@
             "img": "https://www.decathlon.in/_next/image?url=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp1566265%2F3fd995fc4d9c448a8eae1663ac50f91e%2Fp1566265.jpg%3Fformat%3Dauto&w=1920&q=75",
             "Name": "Waterproof Hiking jacket - MH100 Navy - 7-15 years",
             "price": "599",
-            "Rating": "4.6",
+            "Rating": "4.6/5",
             "id": "jacket",
             "MRP":"499"
           },
@@ -277,7 +277,7 @@
             "img": "https://www.decathlon.in/_next/image?url=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp2019781%2F33245cffef6ce8dd3527e5de9567a8b0%2Fp2019781.jpg%3Fformat%3Dauto&w=1920&q=75",
             "Name": "Kids' Warm Breathable Stretchy Hooded Sweatshirt - Black",
             "price": "899",
-            "Rating": "4.7",
+            "Rating": "4.7/5",
             "id": "jacket",
             "MRP":"499"
           },
@@ -285,7 +285,7 @@
             "img": "https://www.decathlon.in/_next/image?url=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp1970331%2Fa89f39d1635daff044ed29c240ab8120%2Fp1970331.jpg%3Fformat%3Dauto&w=1920&q=75",
             "Name": "Kids' Breathable Synthetic Tracksuit S500 - Red/Black",
             "price": "1399",
-            "Rating": "4.6",
+            "Rating": "4.6/5",
             "id": "jacket",
             "MRP":"499"
           },
@@ -293,7 +293,7 @@
             "img": "https://www.decathlon.in/_next/image?url=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp1957765%2Fb0afb11ecbaa318df50d491c5417961b%2Fp1957765.jpg%3Fformat%3Dauto&w=1920&q=75",
             "Name": "Girls' Ultra-Light Compact Breathable Jacket - Coral",
             "price": "899",
-            "Rating": "4.6",
+            "Rating": "4.6/5",
             "id": "jacket",
             "MRP":"499"
           },
@@ -301,7 +301,7 @@
             "img": "https://www.decathlon.in/_next/image?url=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp2080437%2F477d0419c5de06e7749116c6ec293ba0%2Fp2080437.jpg%3Fformat%3Dauto&w=1920&q=75",
             "Name": "Kids' Basic Warm Jacket - Blue/Grey with Motifs",
             "price": "899",
-            "Rating": "4.7",
+            "Rating": "4.7/5",
             "id": "jacket",
             "MRP":"499"
           },
@@ -309,49 +309,49 @@
             "img": "https://www.decathlon.in/_next/image?url=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp2205641%2F0c2ea7783d7dbf309dab8e19aa7a2577%2Fp2205641.jpg%3Fformat%3Dauto&w=1920&q=75",
             "Name": "Kids' Basic Regular-Fit Bottoms - Grey",
             "price": "399",
-            "Rating": "4.6",
+            "Rating": "4.6/5",
             "id": "pant"
           },
           {
             "img": "https://www.decathlon.in/_next/image?url=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp1803400%2Fa5ba17f17255d0eab55e4f1e1e602e15%2Fp1803400.jpg%3Fformat%3Dauto&w=1920&q=75",
             "Name": "Kids' Loose-Fit Cotton Jogging Bottoms 500 - Black",
             "price": "699",
-            "Rating": "4.5",
+            "Rating": "4.5/5",
             "id": "pant"
           },
           {
             "img": "https://www.decathlon.in/_next/image?url=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp1948956%2F9e539bc3e489d367482a24e57944d82c%2Fp1948956.jpg%3Fformat%3Dauto&w=1920&q=75",
             "Name": "AT 100 Kids' Athletics and School Sports Lightweight Trousers - navy blue",
             "price": "899",
-            "Rating": "4.7",
+            "Rating": "4.7/5",
             "id": "pant"
           },
           {
             "img": "https://www.decathlon.in/_next/image?url=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp1970363%2F4c7c73decfd2732b9219d8bac7ea14a3%2Fp1970363.jpg%3Fformat%3Dauto&w=1920&q=75",
             "Name": "Kids' Breathable Cotton Jogging Bottoms 900 - Navy",
             "price": "1799",
-            "Rating": "4.7",
+            "Rating": "4.7/5",
             "id": "pant"
           },
           {
             "img": "https://www.decathlon.in/_next/image?url=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp1977327%2F61d0d7bd62c3a7332961c30d5ee1f0d0%2Fp1977327.jpg%3Fformat%3Dauto&w=1920&q=75",
             "Name": "Kids' Breathable Cotton Jogging Bottoms 900 - Black",
             "price": "799",
-            "Rating": "4.5",
+            "Rating": "4.5/5",
             "id": "pant"
           },
           {
             "img": "https://www.decathlon.in/_next/image?url=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp1997063%2F4ba6402f49932579ef46a7ad94c3d9ec%2Fp1997063.jpg%3Fformat%3Dauto&w=1920&q=75",
             "Name": "KIDS STRAIGHT FIT CRICKET TROUSER TS 500 JR WHITE",
             "price": "699",
-            "Rating": "5",
+            "Rating": "5/5",
             "id": "pant"
           },
           {
             "img": "https://www.decathlon.in/_next/image?url=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp1261030%2Fe5eb0bb9ff8e91ae70dca324cdce8c1f%2Fp1261030.jpg%3Fformat%3Dauto&w=1920&q=75",
             "Name": "Kids' Walking Shoes PW 500 Fresh - Turquoise",
             "price": "1499",
-            "Rating": "4.6",
+            "Rating": "4.6/5",
             "id": "shoes",
             "MRP":"499"
           },
@@ -359,7 +359,7 @@
             "img": "https://www.decathlon.in/_next/image?url=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp939569%2F6e1abbc7834aa3f3ea1d98e6eca20c62%2Fp939569.jpg%3Fformat%3Dauto&w=1920&q=75",
             "Name": "Kids' Walking Shoes Soft 140 - Navy/White",
             "price": "999",
-            "Rating": "4.5",
+            "Rating": "4.5/5",
             "id": "shoes",
             "MRP":"499"
           },
@@ -367,7 +367,7 @@
             "img": "https://www.decathlon.in/_next/image?url=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp1180308%2F62a29f8c10fc85b27076c19c086fa605%2Fp1180308.jpg%3Fformat%3Dauto&w=1920&q=75",
             "Name": "Kids' Walking Shoes PW 540 - Blue/Green",
             "price": "1799",
-            "Rating": "4.5",
+            "Rating": "4.5/5",
             "id": "shoes",
             "MRP":"499"
           },
@@ -375,7 +375,7 @@
             "img": "https://www.decathlon.in/_next/image?url=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp1277047%2F02d6f87d361fa28ef63f2c341efb1ba4%2Fp1277047.jpg%3Fformat%3Dauto&w=1920&q=75",
             "Name": "KID'S ANTI ABRASION CRICKET SHOES CS 300, ORANGE",
             "price": "1299",
-            "Rating": "3",
+            "Rating": "3/5",
             "id": "shoes",
             "MRP":"499"
           },
@@ -383,7 +383,7 @@
             "img": "https://www.decathlon.in/_next/image?url=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp1642566%2Ffdef275963a72bc97e152294addc114f%2Fp1642566.jpg%3Fformat%3Dauto&w=1920&q=75",
             "Name": "KID'S CRICKET SHOE CS100, BLUE",
             "price": "999",
-            "Rating": "4.6",
+            "Rating": "4.6/5",
             "id": "shoes",
             "MRP":"499"
           },
@@ -391,7 +391,7 @@
             "img": "https://www.decathlon.in/_next/image?url=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp1937017%2F00911aeb199320dd6add32ac5d4809d3%2Fp1937017.jpg%3Fformat%3Dauto&w=1920&q=75",
             "Name": "Kids' Lace-Up Running Shoes AT Flex Run - Black/Gold",
             "price": "1799",
-            "Rating": "4.4",
+            "Rating": "4.4/5",
             "id": "shoes",
             "MRP":"499"
           },
@@ -399,7 +399,7 @@
             "img": "https://www.decathlon.in/_next/image?url=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp1788717%2F572fa84a9974035cb5578a27a37215c9%2Fp1788717.jpg%3Fformat%3Dauto&w=1920&q=75",
             "Name": "Kids' Football Boots Agility 100 FG - Black/Red",
             "price": "699",
-            "Rating": "4.5",
+            "Rating": "4.5/5",
             "id": "shoes",
             "MRP":"499"
           },
@@ -407,7 +407,7 @@
             "img": "https://www.decathlon.in/_next/image?url=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp1822908%2Ffb67dbe0b51637e94ac8fea1d947b8b0%2Fp1822908.jpg%3Fformat%3Dauto&w=1920&q=75",
             "Name": "Kids' Rip-Tab Firm Ground Football Boots Agility 140 FG - Burgundy/Orange",
             "price": "1499",
-            "Rating": "4.4",
+            "Rating": "4.4/5",
             "id": "shoes",
             "MRP":"499"
           }

@@ -19,7 +19,7 @@ function showData(data) {
         let div = document.createElement('div');
         let img1 = document.createElement('img');
         img1.src = img;
-        img1.setAttribute('style', 'width:95%; padding:7px')
+        img1.setAttribute('style', 'width:95%; padding:7px;border-radius:18px')
         img1.onclick = () => {
             let arr = [];
             let obj = {
