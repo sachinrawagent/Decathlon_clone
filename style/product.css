@@ -1,0 +1,21 @@
+#vai_product{
+    display: grid;
+    width: 90%;
+    border: 1px solid black;
+    grid-template-columns: 40% 55%;
+    /* height: 500px; */
+    gap: 15px;
+    margin: auto;
+    padding: 10px;
+
+}
+#vai_product>div{
+    border: 1px solid black;
+    margin-left: 10px;
+
+}
+#vai_prod_img{
+    /* //This is for the image */
+    width: 95%;
+    height: 470px;
+}

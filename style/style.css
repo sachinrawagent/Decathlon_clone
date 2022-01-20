@@ -6,6 +6,7 @@
     height: 70px;
     margin-left: 10px;
     background-color: rgb(0, 121, 186);
+    position: fixed;
 }
 
 #svmain>div {
