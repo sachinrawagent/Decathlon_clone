@@ -4,6 +4,21 @@ function login(){
 function signin(){
     window.location.href="./navbar.html"
 }
+function add(){
+    alert("your Address is successfully save")
+ }
+ function add2(){
+    window.location.href="./payment.html"
+    alert("")
+ }
+ function apply(){
+    window.location.href="./navbar.html"
+    alert("We Added Pin:431001 Succesfully Now fill your Bag with happiness!")
+  }
+  function logiii(){
+    window.location.href="./Sign in.html"
+    
+  }
  // ===================================================================================Entry=========================================================================
  function openSign(){
     var logUp= document.getElementById("logUp");
@@ -41,7 +56,7 @@ function signin(){
         userData.push(userobj);
         localStorage.setItem("userDatabase", JSON.stringify(userData));
      //    window.location.href="mainpage.html";
-        alert("Signed Up Succesfuly Now you can sign in")
+        alert("Signed Up Succesfuly Now you can login")
      }
  
      // ================================================================================================Sign in===================================================================
