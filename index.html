@@ -30,7 +30,53 @@
             </div>
         </div>
         <div id="svdelivery5">delivery location
-            <a href="ChangeADD.html">Change</a>
+            <button id="myBtn">Change</button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+       <!-- Modal content -->
+       <div class="modal-content">
+    <span class="close">&times;</span>
+    <div id="sac-cont">
+        <div id="sac-1">
+          <div class="sac-1">
+            <h1 style="font-weight: lighter">LOCATION</h1>
+            <h4>
+              Select your location/address to see<br />
+              accurate product delivery date
+            </h4>
+          </div>
+          <div class="sac-2">
+            <img
+              id="sac-img"
+              src="https://cdncontent.decathlon.in/_next/static/images/deliverytruck-c40a8b92f5392fe19b284856137c64bd.svg"
+            />
+          </div>
+        </div>
+        <div id="sac-2">
+          <h3 id="sac-h">SELECT ADDRESS</h3>
+          <div class="sac-4">
+            <h4 style="margin-left: 4%">
+              Login to view your saved delivery address
+            </h4>
+            <button id="sac-btn" onclick="logiii()">LOGIN</button>
+          </div>
+          <p id="sac-p">OR</p>
+          <h3 id="sac-h4">PINCODE</h3>
+          <div class="sac-3">
+            <p style="margin-left: 4%">Enter a pincode</p>
+            <span
+              ><input type="number" id="sac-pin" placeholder="enter pin" /><button  id="sac-btn2" onclick="apply()" >
+                APPLY
+              </button></span
+            >
+          </div>
+        </div>
+      </div>
+  </div>
+
+</div>
         </div>
         <div id="svSign6">
 
@@ -57,3 +103,30 @@
 </html>
 <script src="./scripts/index.js"></script>
 <script src="./scripts/login.js"></script>
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
