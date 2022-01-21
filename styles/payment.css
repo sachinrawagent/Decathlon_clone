@@ -1,0 +1,119 @@
+body {
+  background-color: #f8f9f9;
+}
+#sac-1 {
+  display: flex;
+  width: 50%;
+  margin-left: 12%;
+  /* border: 1px solid black; */
+  margin-top: 2%;
+  justify-content: space-between;
+  background-color: white;
+  padding: 0.5%;
+}
+#sac-2 {
+  height: 100%;
+  width: 51%;
+  /* border: 1px solid rebeccapurple; */
+  margin-left: 3%;
+}
+#sac-3 {
+  height: 100%;
+  width: 15%;
+  /* border: 1px solid red; */
+  margin-right: 3%;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+#sac-4 {
+  margin-top: 1%;
+  height: 550px;
+  width: 50%;
+  /* border: 0.5px solid black; */
+  margin-left: 12%;
+  background-color: white;
+  padding: 0.5%;
+}
+#sac-5 {
+  height: 540px;
+  width: 98%;
+  /* border: 1px solid red; */
+  display: flex;
+}
+.sac-6 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  height: 105px;
+  width: 220px;
+  /* border: 1px solid orchid; */
+  background-color: #f4f4f4;
+}
+#sac {
+  margin-left: 5%;
+  margin-top: 10%;
+}
+.sac-16 {
+  height: 105px;
+  width: 220px;
+  background-color: white;
+  border-left: 3px solid blue;
+}
+#sac-7 {
+  height: 300px;
+  width: 300px;
+  /* border: 1px solid palevioletred; */
+  margin-left: 9%;
+  padding: 1.5%;
+}
+.sac-8 {
+  height: 270px;
+  width: 300px;
+  /* border: 1px solid palevioletred; */
+}
+#sac-input {
+  display: flex;
+  height: 40px;
+}
+#btn {
+  background-color: #fedd32;
+  height: 50px;
+  width: 285px;
+  border-radius: 7px;
+}
+#navibar {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
+}
+#logoed1 {
+  width: 15%;
+  height: 30px;
+  margin-top: 10px;
+}
+#logoed2 {
+  width: 15%;
+  height: 30px;
+  margin-top: 10px;
+}
+#logoed3 {
+  width: 15%;
+  height: 30px;
+  margin-top: 5px;
+}
+#piu {
+  padding-left: 5px;
+}
+#piuu {
+  padding-left: 5px;
+}
+#delly {
+  font: icon;
+  text-align: center;
+}
+#delly:hover {
+  color: rgba(63, 240, 63, 0.795);
+}
