@@ -5,7 +5,7 @@ function signin(){
     window.location.href="./navbar.html"
 }
 function add(){
-    alert("your Address is successfully save")
+    alert("your Address is successfully saved")
  }
  function add2(){
     window.location.href="./payment.html"
