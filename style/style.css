@@ -10,7 +10,7 @@
 }
 
 #svmain>div {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     margin-left: 25px;
 }
 
@@ -88,3 +88,5 @@
     margin-top: 13px;
     cursor: pointer;
 }
+
+/* sahil navbar code */
