@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="./styles/search.css">
+</head>
+
+<body>
+    <div id="vai_container">
+        <div id="vai_filter">
+            <h3>Filter</h3>
+            <div>
+                <p>Price</p>
+                <input type="checkbox" name=""  id="low" class="val" value="low_price" onclick="click_fil()">
+                <label for="">Low to High</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="high" class="val" value="high_price" onclick="click_fil()">
+                <label for="">High to Low</label>
+            </div>
+            <div>
+                <p>Rating</p>
+                <input type="checkbox" name="" id="rate_high" class="val" value="rate_high" onclick="click_fil()">
+                <label for="">High to Low</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="rate_low" value="rate_low" class="val" onclick="click_fil()">
+                <label for="">High to Low</label>
+            </div>
+        </div>
+        <div id="vai_show"></div>
+    </div>
+</body>
+
+</html>
+<script src="./scripts/search.js"></script>
