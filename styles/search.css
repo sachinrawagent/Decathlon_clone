@@ -5,6 +5,7 @@
     grid-template-columns: 13% 85%;
     margin: auto;
     grid-gap: 10px;
+    margin-top: 15px;
 }
 #vai_container>div{
     /* border: 1px solid black; */

@@ -34,7 +34,7 @@ val.map((ele) => {
       console.log(cart_data);
       localStorage.setItem('cart_data',JSON.stringify(cart_data));
       alert("Added Item In Cart Succesfully");
-      window.location.href="cart.html";
+      // window.location.href="cart.html";
     }
     document.querySelector('#vai_prod_info').append(info_div,price_div,addC_btn);
 })
