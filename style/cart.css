@@ -1,0 +1,74 @@
+#vai_contain {
+    display: grid;
+    border: 1px solid black;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: 70% 30%;
+    grid-gap: 12px;
+    padding: 10px;
+}
+
+#vai_contain>div {
+    border: 1px solid black;
+}
+
+#prod_id {
+    width: 20%;
+}
+
+#vai_maindiv {
+    display: flex;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+
+#vai_infodiv1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#vai_delbtn {
+    /* width: 10%; */
+    height: 30px;
+    margin-top: 10px;
+    /* cursor: pointer; */
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+#vai_infodiv1>#vai_delbtn {
+    margin-left: 80px;
+}
+
+#vai_infodiv1>h3 {
+    margin-left: 40px;
+}
+
+#vai_infodiv {
+    justify-content: space-between;
+
+}
+
+#vai_infodiv2 {
+    display: flex;
+    /* border: 1px solid black; */
+    margin-left: 40px;
+    justify-content: space-between;
+}
+/* //This is all for the order details */
+#vai_totprice{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+#vai_delChargediv{
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+#vai_lastTotdiv{
+    display: flex;
+    border: 1px solid black;
+
+}

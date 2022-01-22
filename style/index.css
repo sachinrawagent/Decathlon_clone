@@ -8,6 +8,13 @@ body {
   margin: 0px;
 }
 
+* {
+    font-family: Roboto condensed, Arial, Helvetica, sans-serif;
+    color: #424453;
+    text-decoration: none solid #424453;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; */
+}
+
 #svdelivery5 {
   height: 40px;
   width: 10%;
@@ -599,6 +606,7 @@ margin-bottom: 100px;
 
 /* /vaibhav code */
 #svmain {
+<<<<<<< Updated upstream
   display: flex;
   /* border: 1px solid red; */
   width: 99.5%;
@@ -607,6 +615,16 @@ margin-bottom: 100px;
   /* margin-left: 10px; */
   background-color: rgb(0, 121, 186);
   position: fixed;
+=======
+    display: flex;
+    /* border: 1px solid red; */
+    width: 99%;
+    /* width: 100%; */
+    height: 70px;
+    /* margin-left: 10px; */
+    background-color: rgb(0, 121, 186);
+    position: fixed;
+>>>>>>> Stashed changes
 }
 
 #svmain > div {
@@ -616,12 +634,22 @@ margin-bottom: 100px;
 
 /* this is for the logo of decalthon website */
 #dec_logo {
+<<<<<<< Updated upstream
   border: 1px solid white;
   margin-top: 9px;
   width: 77%;
   padding: 4px;
   cursor: pointer;
   margin-left: 15px;
+=======
+    border: 1px solid white;
+    margin-top: 11px;
+    width: 77%;
+    padding: 4px;
+    cursor: pointer;
+    height: 35px;
+    margin-left: 15px;
+>>>>>>> Stashed changes
 }
 
 #vai_logo > #dec_logo {
