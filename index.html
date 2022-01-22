@@ -1,132 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home page</title>
-    <link rel="stylesheet" href="./style/index.css">
-    <script src="https://kit.fontawesome.com/d7bc18a32d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/index.css" />
+    <script
+      src="https://kit.fontawesome.com/d7bc18a32d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div id="svmain">
-        <div id="vai_sports">
-            <p>ALL<br>SPORTS</p>
+      <div id="vai_sports">
+        <p>ALL<br />SPORTS</p>
 
-            <div id="vai_cat_click">
-                <!-- <p>This is sports</p> -->
-            </div>
+        <div id="vai_cat_click">
+          <!-- <p>This is sports</p> -->
         </div>
-        <div id="vai_logo">
-            <!-- <h3>Logo_of_decalthon</h3> -->
+      </div>
+      <div id="vai_logo">
+        <!-- <h3>Logo_of_decalthon</h3> -->
+      </div>
+      <div id="vai_search">
+        <div id="vai2_search">
+          <input
+            type="text"
+            id="vai_srchitem"
+            placeholder="Search sport and product"
+          />
+          <!-- <img id="vai_icon" src="https://img.icons8.com/material-outlined/24/000000/search--v1.png"/> -->
         </div>
-        <div id="vai_search">
-            <div id="vai2_search">
-                <input type="text" id="vai_srchitem" placeholder="Search sport and product">
-                <!-- <img id="vai_icon" src="https://img.icons8.com/material-outlined/24/000000/search--v1.png"/> -->
-            </div>
-        </div>
-        <div id="svdelivery5">delivery location
-            <button id="myBtn">Change</button>
+      </div>
+      <div id="svdelivery5">
+        <span style="color: white; font-weight: 15px"
+          >delivery location<br
+        /></span>
+        <button id="myBtn">Change</button>
 
         <!-- The Modal -->
         <div id="myModal" class="modal">
-
-       <!-- Modal content -->
-       <div class="modal-content">
-    <span class="close">&times;</span>
-    <div id="sac-cont">
-        <div id="sac-1">
-          <div class="sac-1">
-            <h1 style="font-weight: lighter">LOCATION</h1>
-            <h4>
-              Select your location/address to see<br />
-              accurate product delivery date
-            </h4>
-          </div>
-          <div class="sac-2">
-            <img
-              id="sac-img"
-              src="https://cdncontent.decathlon.in/_next/static/images/deliverytruck-c40a8b92f5392fe19b284856137c64bd.svg"
-            />
-          </div>
-        </div>
-        <div id="sac-2">
-          <h3 id="sac-h">SELECT ADDRESS</h3>
-          <div class="sac-4">
-            <h4 style="margin-left: 4%">
-              Login to view your saved delivery address
-            </h4>
-            <button id="sac-btn" onclick="logiii()">LOGIN</button>
-          </div>
-          <p id="sac-p">OR</p>
-          <h3 id="sac-h4">PINCODE</h3>
-          <div class="sac-3">
-            <p style="margin-left: 4%">Enter a pincode</p>
-            <span
-              ><input type="number" id="sac-pin" placeholder="enter pin" /><button  id="sac-btn2" onclick="apply()" >
-                APPLY
-              </button></span
-            >
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="sac-cont">
+              <div id="sac-1">
+                <div class="sac-1">
+                  <h1 style="font-weight: lighter">LOCATION</h1>
+                  <h4>
+                    Select your location/address to see<br />
+                    accurate product delivery date
+                  </h4>
+                </div>
+                <div class="sac-2">
+                  <img
+                    id="sac-img"
+                    src="https://cdncontent.decathlon.in/_next/static/images/deliverytruck-c40a8b92f5392fe19b284856137c64bd.svg"
+                  />
+                </div>
+              </div>
+              <div id="sac-2">
+                <h3 id="sac-h">SELECT ADDRESS</h3>
+                <div class="sac-4">
+                  <h4 style="margin-left: 4%">
+                    Login to view your saved delivery address
+                  </h4>
+                  <button id="sac-btn" onclick="logiii()">LOGIN</button>
+                </div>
+                <p id="sac-p">OR</p>
+                <h3 id="sac-h4">PINCODE</h3>
+                <div class="sac-3">
+                  <p style="margin-left: 4%">Enter a pincode</p>
+                  <span
+                    ><input
+                      type="number"
+                      id="sac-pin"
+                      placeholder="enter pin"
+                    /><button id="sac-btn2" onclick="apply()">
+                      APPLY
+                    </button></span
+                  >
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-  </div>
-
-</div>
-        </div>
-        <div id="svSign6">
-
-            <img src="https://th.bing.com/th/id/OIP.pYIWadkBMwcIjGXXfkXjlgAAAA?pid=ImgDet&w=360&h=360&rs=1" alt=""
-                height="30" width="30"><br>
-            <button id="btn" onclick="login()">Loginin</button>
-        </div>
-        <div id="sv_mystore7">
-            <img src="https://cdn0.iconfinder.com/data/icons/shopping-279/64/shopping-11-512.png" alt="" height="35"
-                width="50"><br>
-            <a href="My store.html">My store</a>
-        </div>
-        <div id="svsupport8">
-            <img src="./image/Screenshot.png" alt="" height="50" width="60">
-        </div>
-        <div id="svcart9">
-            <img src="https://th.bing.com/th/id/OIP.w6_TDDnKILNwOUndoDL8DQHaHa?pid=ImgDet&w=981&h=981&rs=1" alt=""
-                height="40" width="40"><br>
-            <a href="Add card.html">Cart</a>
-        </div>
+      <div id="svSign6">
+        <button id="btn" style="color: white" onclick="login()">
+          <img src="./image/Screenshot 4.png" alt="" height="50" width="60" />
+        </button>
+      </div>
+      <div id="sv_mystore7">
+        <img src="./image/Screenshot 2.png" alt="" height="50px" /><br />
+        <a href="My store.html" style="color: white"></a>
+      </div>
+      <div id="svsupport8">
+        <img src="./image/Screenshot.png" alt="" height="50" width="60" />
+      </div>
+      <div id="svcart9">
+        <a href="Add card.html" style="color: white">
+          <img src="./image/Screenshot 5.png" alt="" height="50" width="50"
+        /></a>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
 <script src="./scripts/index.js"></script>
 <script src="./scripts/login.js"></script>
 <script>
-    // Get the modal
-    var modal = document.getElementById("myModal");
-    
-    // Get the button that opens the modal
-    var btn = document.getElementById("myBtn");
-    
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-    
-    // When the user clicks the button, open the modal 
-    btn.onclick = function() {
-      modal.style.display = "block";
-    }
-    
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
+  // Get the modal
+  var modal = document.getElementById("myModal");
+
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks the button, open the modal
+  btn.onclick = function () {
+    modal.style.display = "block";
+  };
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function () {
+    modal.style.display = "none";
+  };
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function (event) {
+    if (event.target == modal) {
       modal.style.display = "none";
     }
-    
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }
-    </script>
+  };
+</script>

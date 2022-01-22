@@ -2,17 +2,17 @@ function login(){
     window.location.href="./Sign in.html"
 }
 function signin(){
-    window.location.href="./navbar.html"
+    window.location.href="./index.html"
 }
 function add(){
     alert("your Address is successfully save")
  }
  function add2(){
     window.location.href="./payment.html"
-    alert("")
+    
  }
  function apply(){
-    window.location.href="./navbar.html"
+    window.location.href="./index.html"
     alert("We Added Pin:431001 Succesfully Now fill your Bag with happiness!")
   }
   function logiii(){
@@ -98,4 +98,6 @@ function add(){
                  signin.style.display="none";
              }
          }
-         
+        //  function openSign(){
+
+        //  }
