@@ -9,10 +9,10 @@ body {
 }
 
 * {
-    font-family: Roboto condensed, Arial, Helvetica, sans-serif;
-    color: #424453;
-    text-decoration: none solid #424453;
-    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; */
+  font-family: Roboto condensed, Arial, Helvetica, sans-serif;
+  color: #424453;
+  text-decoration: none solid #424453;
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; */
 }
 
 #svdelivery5 {
@@ -111,7 +111,7 @@ a {
   /* justify-content: space-between; */
 }
 
-#signMo > button {
+#signMo>button {
   height: 48px;
   /* width: 257px; */
   font-size: 14px;
@@ -120,7 +120,7 @@ a {
   /* border: red; */
 }
 
-#signMo > button:hover {
+#signMo>button:hover {
   background-color: #9b9b9b;
   cursor: pointer;
 }
@@ -253,7 +253,7 @@ body {
   display: flex;
 }
 
-#Flex > div {
+#Flex>div {
   width: 300px;
   margin: 10px 30px;
 }
@@ -278,7 +278,7 @@ body {
   cursor: pointer;
 }
 
-.us3 > input {
+.us3>input {
   height: 24px;
   width: 200px;
   border: transparent;
@@ -291,7 +291,7 @@ body {
   cursor: pointer;
 }
 
-#signUp > button {
+#signUp>button {
   height: 50px;
   width: 260px;
   margin-left: 200px;
@@ -302,7 +302,7 @@ body {
   border: transparent;
 }
 
-#signUp > button:hover {
+#signUp>button:hover {
   background-color: rgb(228, 30, 168);
   cursor: pointer;
 }
@@ -384,7 +384,7 @@ body {
   cursor: pointer;
 }
 
-.us6 > input {
+.us6>input {
   height: 24px;
   width: 200px;
   border: transparent;
@@ -392,7 +392,7 @@ body {
   cursor: pointer;
 }
 
-#signInn > button {
+#signInn>button {
   margin-top: 10%;
   height: 50px;
   width: 260px;
@@ -404,7 +404,7 @@ body {
   border: transparent;
 }
 
-#signInn > button:hover {
+#signInn>button:hover {
   background-color: rgb(228, 30, 168);
   cursor: pointer;
 }
@@ -551,9 +551,11 @@ body {
   padding-left: 15px;
   height: 30px;
 }
+
 #ini9 {
   margin-left: 20px;
 }
+
 #home {
   margin-left: 10px;
 }
@@ -606,53 +608,33 @@ margin-bottom: 100px;
 
 /* /vaibhav code */
 #svmain {
-<<<<<<< Updated upstream
   display: flex;
   /* border: 1px solid red; */
-  width: 99.5%;
+  width: 99%;
   /* width: 100%; */
   height: 70px;
   /* margin-left: 10px; */
   background-color: rgb(0, 121, 186);
   position: fixed;
-=======
-    display: flex;
-    /* border: 1px solid red; */
-    width: 99%;
-    /* width: 100%; */
-    height: 70px;
-    /* margin-left: 10px; */
-    background-color: rgb(0, 121, 186);
-    position: fixed;
->>>>>>> Stashed changes
 }
 
-#svmain > div {
+#svmain>div {
   /* border: 1px solid white; */
   margin-left: 25px;
 }
 
 /* this is for the logo of decalthon website */
 #dec_logo {
-<<<<<<< Updated upstream
   border: 1px solid white;
-  margin-top: 9px;
+  margin-top: 11px;
   width: 77%;
   padding: 4px;
   cursor: pointer;
+  height: 35px;
   margin-left: 15px;
-=======
-    border: 1px solid white;
-    margin-top: 11px;
-    width: 77%;
-    padding: 4px;
-    cursor: pointer;
-    height: 35px;
-    margin-left: 15px;
->>>>>>> Stashed changes
 }
 
-#vai_logo > #dec_logo {
+#vai_logo>#dec_logo {
   border: 1px solid white;
 }
 
@@ -668,7 +650,7 @@ margin-bottom: 100px;
   cursor: pointer;
 }
 
-#vai_sports > p {
+#vai_sports>p {
   color: rgb(255, 250, 244);
   font-size: 15px;
   font-weight: bold;
@@ -680,14 +662,14 @@ margin-bottom: 100px;
   margin-left: 10px;
 }
 
-#show_sport > p {
+#show_sport>p {
   /* border: 1px solid red; */
   margin-left: 15px;
   cursor: pointer;
   /* width: 20%; */
 }
 
-#show_sport > p:hover {
+#show_sport>p:hover {
   border-bottom: 3px solid rgb(0, 121, 186);
   color: rgb(0, 121, 186);
   transition: border-bottom 1ms, color 1ms;
@@ -701,7 +683,7 @@ margin-bottom: 100px;
   width: 650px;
 }
 
-#vai_search > div {
+#vai_search>div {
   display: flex;
 }
 
@@ -728,17 +710,26 @@ body {
 
 /* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
 }
 
 /* Modal Content */
@@ -775,6 +766,7 @@ body {
   margin-top: 5%;
   border-radius: 7px;
 }
+
 #sac-1 {
   height: 100%;
   width: 50%;
@@ -782,25 +774,30 @@ body {
   background-color: rgb(243, 243, 243);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
 #sac-2 {
   height: 100%;
   width: 65%;
   margin-left: 4%;
   /* border: 1px solid blue; */
 }
+
 .sac-1 {
   margin-top: 5%;
   margin-left: 5%;
 }
+
 .sac-2 {
   height: 60%;
   width: 100%;
   /* border: 1px solid olivedrab; */
 }
+
 #sac-img {
   margin-top: 5%;
   margin-left: 9%;
 }
+
 .sac-4 {
   height: 30%;
   width: 80%;
@@ -808,6 +805,7 @@ body {
   background-color: rgb(243, 243, 243);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
 #sac-btn {
   background-color: rgb(0, 130, 195);
   width: 75%;
@@ -818,9 +816,11 @@ body {
   color: white;
   border-radius: 5px;
 }
+
 #sac-p {
   text-align: center;
 }
+
 .sac-3 {
   height: 30%;
   width: 80%;
@@ -828,6 +828,7 @@ body {
   background-color: #f4f4f4;
   margin-top: 3%;
 }
+
 #sac-btn2 {
   margin-left: 2%;
   border-radius: 4%;
@@ -838,11 +839,13 @@ body {
   height: 30%;
   border-radius: 7px;
 }
+
 #sac-pin {
   margin-left: 4%;
   height: 30px;
   border-radius: 5;
 }
+
 #sac-cont {
   display: flex;
   height: 400px;
@@ -852,6 +855,7 @@ body {
   margin-top: 5%;
   border-radius: 7px;
 }
+
 #sac-1 {
   height: 100%;
   width: 50%;
@@ -859,25 +863,30 @@ body {
   background-color: rgb(243, 243, 243);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
 #sac-2 {
   height: 100%;
   width: 65%;
   margin-left: 4%;
   /* border: 1px solid blue; */
 }
+
 .sac-1 {
   margin-top: 5%;
   margin-left: 5%;
 }
+
 .sac-2 {
   height: 60%;
   width: 100%;
   /* border: 1px solid olivedrab; */
 }
+
 #sac-img {
   margin-top: 5%;
   margin-left: 9%;
 }
+
 .sac-4 {
   height: 30%;
   width: 80%;
@@ -885,6 +894,7 @@ body {
   background-color: rgb(243, 243, 243);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
 #sac-btn {
   background-color: rgb(0, 130, 195);
   width: 75%;
@@ -895,9 +905,11 @@ body {
   color: white;
   border-radius: 5px;
 }
+
 #sac-p {
   text-align: center;
 }
+
 .sac-3 {
   height: 30%;
   width: 80%;
@@ -905,6 +917,7 @@ body {
   background-color: #f4f4f4;
   margin-top: 3%;
 }
+
 #sac-btn2 {
   margin-left: 2%;
   border-radius: 4%;
@@ -915,11 +928,13 @@ body {
   height: 30%;
   border-radius: 7px;
 }
+
 #sac-pin {
   margin-left: 4%;
   height: 30px;
   border-radius: 5;
 }
+
 #sac-cont {
   display: flex;
   height: 400px;
@@ -929,6 +944,7 @@ body {
   margin-top: 5%;
   border-radius: 7px;
 }
+
 #sac-1 {
   height: 100%;
   width: 50%;
@@ -936,25 +952,30 @@ body {
   background-color: rgb(243, 243, 243);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
 #sac-2 {
   height: 100%;
   width: 65%;
   margin-left: 4%;
   /* border: 1px solid blue; */
 }
+
 .sac-1 {
   margin-top: 5%;
   margin-left: 5%;
 }
+
 .sac-2 {
   height: 60%;
   width: 100%;
   /* border: 1px solid olivedrab; */
 }
+
 #sac-img {
   margin-top: 5%;
   margin-left: 9%;
 }
+
 .sac-4 {
   height: 30%;
   width: 80%;
@@ -962,6 +983,7 @@ body {
   background-color: rgb(243, 243, 243);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
 #sac-btn {
   background-color: rgb(0, 130, 195);
   width: 65%;
@@ -971,9 +993,11 @@ body {
   color: white;
   border-radius: 5px;
 }
+
 #sac-p {
   text-align: center;
 }
+
 .sac-3 {
   height: 30%;
   width: 80%;
@@ -981,6 +1005,7 @@ body {
   background-color: #f4f4f4;
   margin-top: 3%;
 }
+
 #sac-btn2 {
   margin-left: 2%;
   border-radius: 4%;
@@ -991,37 +1016,45 @@ body {
   height: 30%;
   border-radius: 7px;
 }
+
 #sac-pin {
   margin-left: 4%;
   height: 30px;
   border-radius: 5;
 }
+
 #myBtn {
   border: 1px solid transparent;
   width: 0px;
   height: 0px;
   color: white;
 }
+
 #svdelivery5 {
   color: white;
   font-size: small;
 }
+
 * {
   font-family: Roboto condensed, Arial, Helvetica, sans-serif;
   color: #424453;
   text-decoration: none solid #424453;
   /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; */
 }
+
 #sv_mystore7 {
   color: white;
 }
+
 body {
   margin: 0px;
 }
+
 #btn {
   background-color: #0079ba;
   margin-bottom: 50px;
 }
+
 #myBtn {
   background-color: #0079ba;
 }
