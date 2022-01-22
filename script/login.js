@@ -2,7 +2,7 @@ function login(){
     window.location.href="./Sign in.html"
 }
 function signin(){
-    window.location.href="./navbar.html"
+    window.location.href="./index.html"
 }
 function add(){
     alert("your Address is successfully saved")
