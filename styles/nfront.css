@@ -1,0 +1,144 @@
+*{
+    font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
+}
+
+
+.belowss-container {
+  height: 100px;
+
+  width: 98%;
+  position: relative;
+  margin: auto;
+
+  margin-top: 40px;
+  background-color: #ededed;
+  display: flex;
+  cursor: pointer;
+}
+
+#nimages {
+  margin: auto;
+}
+#nline {
+  height: 60px;
+  width: 1px;
+  background-color: black;
+}
+
+#ncontext {
+  margin-top: 18px;
+}
+
+#Prod_div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 410px;
+  width: 98%;
+  margin: auto;
+
+  margin-top: 70px;
+  grid-gap: 1%;
+  padding: 1%;
+  background-color: #f7f7f7;
+  cursor: pointer;
+}
+
+#Prod_div > div {
+  border-radius: 5%;
+  height: 350px;
+}
+
+#Prod_div > div > img {
+  border-radius: 5%;
+}
+
+/* <!-- decathlon blog div starts --> */
+
+#decathlon-blog {
+  width: 98%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-bottom: 60px;
+}
+
+#blog1 {
+  display: flex;
+}
+#blog1 > div {
+  margin-left: 40px;
+  scroll-padding-bottom: 20px;
+  margin-top: 0px;
+}
+
+#blog1 > img {
+  height: 30px;
+
+  margin: auto;
+  margin-top: 15px;
+}
+
+#blog2 {
+  height: 40px;
+  width: 100px;
+  margin: auto;
+  background-color: #bedeef;
+  text-align: center;
+  padding-top: 8px;
+  color: #23a1da;
+  margin-left: 650px;
+}
+
+/* product div 2 */
+
+#Prod_div2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 300px;
+  width: 98%;
+  margin: auto;
+
+  margin-top: 70px;
+  grid-gap: 1%;
+
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+#Prod_div2 > div {
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  height: 270px;
+}
+
+#Prod_div2 > div > img {
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+}
+
+/* product div 3 */
+
+#Prod_div3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 400px;
+  width: 98%;
+  margin: auto;
+  margin-top: 70px;
+  grid-gap: 1%;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+#Prod_div3 > div {
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  height: 370px;
+}
+
+#Prod_div3 > div > img {
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+}
