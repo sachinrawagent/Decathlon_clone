@@ -83,7 +83,7 @@ function showOrder(data) {
         //proceed to checkout button
         let proc_btn = document.createElement('button');
         proc_btn.onclick = () => {
-            window.location.href = "payment.html";
+            window.location.href = "delivery.html";
         }
         proc_btn.id = "vai_procbtn";
         proc_btn.textContent = "PROCEED TO CHECKOUT";

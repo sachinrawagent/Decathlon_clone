@@ -1058,3 +1058,10 @@ body {
 #myBtn {
   background-color: #0079ba;
 }
+#cardii{
+  /* border: 1px solid red; */
+  height: 70%;
+  width: 60%;
+  margin-left: 3%;
+  margin-top: 2%;
+}

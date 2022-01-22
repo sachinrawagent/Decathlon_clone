@@ -9,10 +9,12 @@
     display: grid;
     /* border: 1px solid black; */
     width: 90%;
-    margin: auto;
+    /* margin: auto; */
     grid-template-columns: 70% 30%;
     grid-gap: 12px;
-    padding: 10px;
+    padding: 5px;
+    margin-top: 1%;
+    margin-left: 2.5%;
 }
 
 /* #vai_contain>div {
@@ -104,3 +106,10 @@
 #vai_prod{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
+
+
+
+
+
+
+/* //////////////////////////////////////////////////////sahil card css/////////////////////// */
