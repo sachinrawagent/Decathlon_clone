@@ -1,6 +1,7 @@
 console.log("In the search.js file");
 let val = JSON.parse(localStorage.getItem('search'));
 val = val.toLowerCase();
+document.querySelector('title').innerHTML=`Result for ${val}`;
 getData(val);
 async function getData(val) {
     console.log(val);

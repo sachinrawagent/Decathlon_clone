@@ -2,6 +2,7 @@ function login(){
     window.location.href="./Sign in.html"
 }
 function signin(){
+    alert("Welcome to decathlon shopping");
     window.location.href="./index.html"
 }
 function add(){
