@@ -60,17 +60,15 @@ async function signUp() {
         // http://localhost:2400/user/register
         userobj = JSON.stringify(userobj);
 
-        let response = await fetch('http://localhost:2400/user/register', {
-            method: 'POST',
+        let response = await fetch("http://localhost:2400/register", {
+          method: "POST",
 
-            body: userobj,
+          body: userobj,
 
-            headers: {
-                "Content-Type": 'application/json'
-            }
-
-
-        })
+          headers: {
+            "Content-Type": "application/json",
+          },
+        });
         let data = await response.json();
         console.log(data);
         alert(data.message);
@@ -110,19 +108,24 @@ async function signInfu() {
         }
         userlogin = JSON.stringify(userlogin);
 
-        let response = await fetch('http://localhost:2400/user/login', {
-            method: 'POST',
-            body:userlogin,
-            headers: {
-                "Content-Type": 'application/json'
-
-            }
-
-        })
+        let response = await fetch("http://localhost:2400/login", {
+          method: "POST",
+          body: userlogin,
+          headers: {
+            "Content-Type": "application/json",
+          },
+        });
         let data =await response.json();
         console.log(data);
-        alert(data.message);
-        window.location.href = "./index.html"
+        
+        console.log(response)
+        if(response.status=="200"){
+            window.location.href = "./index.html";
+        }
+        else {
+            alert(data.message)
+            window.location.href = "./Sign in.html";
+        }
     } catch (e) {
         console.log(e);
         alert("In the error part");
