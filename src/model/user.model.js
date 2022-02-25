@@ -1,21 +1,30 @@
-const mongoose=require('mongoose');
+const mongoose = require("mongoose");
+const bcrypt = require("bcrypt");
 
+const userSchema = new mongoose.Schema(
+  {
+    email: { type: String, required: true },
+    password: { type: String, required: true },
+    username: { type: String, required: false },
+    phone: { type: String, required: false },
+  },
+  {
+    versionKey: false,
+    timestamps: true,
+  }
+);
 
-const registerSchema=mongoose.Schema({
+userSchema.pre("save", function (next) {
+  if (!this.isModified("password")) return next();
+  var hash = bcrypt.hashSync(this.password, 8);
+  this.password = hash;
+  return next();
+});
 
-    email:{type:String,required:true},
-    password:{type:String,required:true},
-    username:{type:String,required:false},
-    phone:{type:String,required:false}
-})
-const loginSchema=mongoose.Schema({
+userSchema.methods.checkPassword = function (password) {
+  return bcrypt.compareSync(password, this.password);
+};
 
-    email:{type:String,required:true},
-    password:{type:String,required:true},
-})
+const User = mongoose.model("user", userSchema);
 
-const register=mongoose.model('user_Register',registerSchema);
-const login=mongoose.model('user_login',loginSchema);
-
-
-module.exports={register,login};
+module.exports = User;

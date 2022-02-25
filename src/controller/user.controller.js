@@ -1,48 +1,45 @@
-const {register,login}=require('../model/user.model');
+const express = require("express");
 
-const express=require('express');
+const User = require("../model/user.model");
 
-const app=express();
+const router = express.Router();
 
-const router=express.Router();
+router.post("", async (req, res) => {
+  try {
+    const user = await User.create(req.body);
 
+    return res.status(201).send(user);
+  } catch (er) {
+    return res.status(500).send(er.message);
+  }
+});
 
-app.use(express.json());
+router.get("", async (req, res) => {
+  try {
+    const user = await User.find().lean().exec();
 
-router.post('/register',async (req,res)=>{
-    // console.log(req.body);
-    const reg=await register.create(req.body);
-    res.send({message:"User register successfully"});
-})
+    return res.status(201).send(user);
+  } catch (er) {
+    return res.status(500).send(er.message);
+  }
+});
 
-router.post('/login', async (req,res)=>{
-    const user= await register.find().lean().exec();
-    // console.log(req.body);
-    let email=req.body.email;
-    let password=req.body.password;
-    // console.log(user);
-    let islogin=false,isemail=false,isPass=false;
+// router.get("", async (req, res) => {
+//   try {
+//     const page = req.query.page || 1;
+//     const size = req.query.size || 10;
+//     const users = await User.find()
+//       .skip((page - 1) * size)
+//       .limit(size)
+//       .lean()
+//       .exec();
 
-    user.map((ele)=>{
-        if(ele.email==email){
-            isemail=true;
-            if(ele.password==password){
-                console.log(ele.password,password,ele.email,email)
-                isPass=true;
-                islogin=true;
-            }
-        }
-    })
-    if(islogin){
-        res.send({message:"Login succesfully"});
+//     const totalPages = Math.ceil((await User.find().countDocuments()) / size);
 
-    }else if(isemail){
-        res.send({message:"Password is wrong"});
+//     return res.send({ users, totalPages });
+//   } catch (err) {
+//     return res.status(500).send({ message: err.message });
+//   }
+// });
 
-    }else{
-        res.send({message:"Your email is not register please register first"});
-    }
-})
-
-
-module.exports=router;
+module.exports = router;
