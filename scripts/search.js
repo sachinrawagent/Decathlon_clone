@@ -3,10 +3,11 @@ let val = JSON.parse(localStorage.getItem('search'));
 val = val.toLowerCase();
 document.querySelector('title').innerHTML=`Result for ${val}`;
 getData(val);
-async function getData(val) {
+async function getData(val,page=1) {
+
     console.log(val);
     try {
-        let res = await fetch(`http://127.0.0.1:4000/api/${val}`);
+        let res = await fetch(`http://localhost:2400/product/?catogery=${val}&page=${page}`);
         let data = await res.json();
         showData(data);
         localStorage.setItem('vai_searchData', JSON.stringify(data));
@@ -16,6 +17,7 @@ async function getData(val) {
 }
 function showData(data) {
     console.log("In the show data", data);
+    document.querySelector('#vai_show').innerHTML="";
     data.map(({ img, price, MRP, Name, Rating }) => {
         let div = document.createElement('div');
         let img1 = document.createElement('img');
@@ -62,9 +64,38 @@ function showData(data) {
         document.querySelector('#vai_show').append(div);
     })
 }
+
+//In the same code we need to add the pagination that its,
+let pag_div=document.createElement('div');
+pag_div.id="pag_div";
+for(let i=0; i<5; i++){
+    let btn=document.createElement('button');
+    btn.id="vai_btnPag";
+    btn.textContent=i+1;
+    pag_div.append(btn);
+    btn.onclick=()=>{
+        getData(val,i+1);
+    }
+    document.querySelector('#vai_pagination').append(pag_div);
+}
+
+
 //This is function for the when we click on any filter
-function click_fil() {
-    let val = document.querySelector('.class');
-    console.log(val);
+function filter() {
+    let val=document.getElementsByClassName('val'); //Get the all class
+    let brand;
+    for(let i=0; i<val.length; i++){
+        if(val[i].checked==true){
+            let check=val[i].value;
+            // console.log(check);
+            if(check=='Adidas' || check=='Nike'){
+                brand=check;
+            }
+        }else{
+            continue;
+            console.log("Not true");
+        }
+    }
+    console.log(brand);
 }
 

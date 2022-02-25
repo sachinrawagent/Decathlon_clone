@@ -2,23 +2,23 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="icon" style="height: 10px;" href="./images/Screenshotlogo.png" type="image/jpg">
-    <link rel="stylesheet" href="./styles/search.css">
-    <link rel="stylesheet" href="./styles/index.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="icon" style="height: 10px;" href="./images/Screenshotlogo.png" type="image/jpg">
+  <link rel="stylesheet" href="./styles/search.css">
+  <link rel="stylesheet" href="./styles/index.css">
 </head>
 
 <body>
 
 
-<!-- navbar -->
-<div id="svmain">
+  <!-- navbar -->
+  <div id="svmain">
     <div id="vai_sports">
       <p>ALL<br />SPORTS</p>
-  
+
       <div id="vai_cat_click">
         <!-- <p>This is sports</p> -->
       </div>
@@ -35,7 +35,7 @@
     <div id="svdelivery5">
       <span style="color: white; font-weight: 15px">delivery location<br /></span>
       <button id="myBtn">Change</button>
-  
+
       <!-- The Modal -->
       <div id="myModal" class="modal">
         <!-- Modal content -->
@@ -67,7 +67,8 @@
               <h3 id="sac-h4">PINCODE</h3>
               <div class="sac-3">
                 <p style="margin-left: 4%">Enter a pincode</p>
-                <span><input type="number" id="sac-pin" placeholder="enter pin" /><button id="sac-btn2" onclick="apply()">
+                <span><input type="number" id="sac-pin" placeholder="enter pin" /><button id="sac-btn2"
+                    onclick="apply()">
                     APPLY
                   </button></span>
               </div>
@@ -96,41 +97,48 @@
 
 
 
-<!-- endshere -->
+  <!-- endshere -->
 
-    <div id="vai_container">
-        <div id="vai_filter">
-            <h3>Filter</h3>
-            <div>
-                <p>Price</p>
-                <input type="checkbox" name=""  id="low" class="val" value="low_price" onclick="click_fil()">
-                <label for="">Low to High</label>
-            </div>
-            <div>
-                <input type="checkbox" name="" id="high" class="val" value="high_price" onclick="click_fil()">
-                <label for="">High to Low</label>
-            </div>
-            <div>
-                <p>Rating</p>
-                <input type="checkbox" name="" id="rate_high" class="val" value="rate_high" onclick="click_fil()">
-                <label for="">High to Low</label>
-            </div>
-            <div>
-                <input type="checkbox" name="" id="rate_low" value="rate_low" class="val" onclick="click_fil()">
-                <label for="">High to Low</label>
-            </div>
-            <div>
-                <p>Sport</p>
-                <input type="checkbox" name="" id="rate_high" class="val" value="rate_high" onclick="click_fil()">
-                <label for="">Adidas</label>
-            </div>
-            <div>
-                <input type="checkbox" name="" id="rate_high" class="val" value="rate_high" onclick="click_fil()">
-                <label for="">Nike</label>
-            </div>
-        </div>
-        <div id="vai_show"></div>
+  <div id="vai_container">
+    <div id="vai_filter">
+      <h3>Filter</h3>
+      <div>
+        <p>Price</p>
+        <input type="checkbox" name="" id="low" class="val" value="low_price">
+        <label for="">Low to High</label>
+      </div>
+      <div>
+        <input type="checkbox" name="" id="high" class="val" value="high_price">
+        <label for="">High to Low</label>
+      </div>
+      <div>
+        <p>Rating</p>
+        <input type="checkbox" name="" id="rate_high" class="val" value="rate_high">
+        <label for="">High to Low</label>
+      </div>
+      <div>
+        <input type="checkbox" name="" id="rate_low" value="rate_low" class="val">
+        <label for="">High to Low</label>
+      </div>
+      <div>
+        <p>Sport</p>
+        <input type="checkbox" name="" id="rate_high" class="val" value="Adidas">
+        <label for="">Adidas</label>
+      </div>
+      <div>
+        <input type="checkbox" name="" id="rate_high" class="val" value="Nike">
+        <label for="">Nike</label>
+      </div>
+
+      <div id="vai_filter_div">
+        <button id="vai_apply_filter" onclick="filter()">Apply Filter</button>
+      </div>
     </div>
+    
+    <div id="vai_show"></div>
+    <div id="vai_pagination"></div>
+
+  </div>
 </body>
 
 </html>
