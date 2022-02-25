@@ -35,4 +35,10 @@ router.get('',async (req,res)=>{
     return res.send(prod);
 })
 
+router.get('/filter', async (req,res)=>{
+    const prod= await product.find({Brand:req.query.Brand}).lean().exec();
+    console.log(req.query.Brand);
+    return res.send(prod);
+})
+
 module.exports=router;

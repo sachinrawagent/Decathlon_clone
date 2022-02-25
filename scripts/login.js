@@ -74,7 +74,7 @@ async function signUp() {
         let data = await response.json();
         console.log(data);
         alert(data.message);
-        window.location.href='./index.html';
+        // window.location.href='./index.html';
     }
     catch (err) {
         console.log(err)
