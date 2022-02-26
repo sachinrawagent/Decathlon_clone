@@ -1,5 +1,5 @@
 const express=require('express');
-
+const path=require("path");
 const cors = require('cors')
 require("dotenv").config();
 const app=express();
@@ -24,7 +24,8 @@ app.use('/product',productController); //product/:cat for the catogery of the pr
 app.use('/user',userController);
 
 app.get("",  (req, res) => {
-    return res.send("started");
+    res.sendFile(path.join(__dirname, '../src', 'index.html'));
+
   });
 
 
