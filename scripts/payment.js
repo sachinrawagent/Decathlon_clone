@@ -23,3 +23,6 @@ document.getElementById("btn").addEventListener("click", myfunction);
     //   alert("Invalid User Credential");
     // }
   }
+  let Tsum=JSON.parse(localStorage.getItem("Tsum"))
+  document.getElementById("btn").innerHTML=`Pay securely ₹${Tsum}`;
+  console.log(Tsum)

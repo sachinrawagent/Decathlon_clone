@@ -1,10 +1,10 @@
-let cart_data = JSON.parse(localStorage.getItem('cart_data'));
-// console.log("In the cart page", cart_data);
+let cart_data = JSON.parse(localStorage.getItem('cart_section'));
+console.log("In the cart page", cart_data);
 let tp = 0;
 showProd(cart_data);
 showOrder(cart_data);
 function showProd(data, index) {
-    data.map(({ img, price, Rating, Name, MRP }) => {
+    data.map(({ img, price, Rating, name, MRP }) => {
         let main_div = document.createElement('div');
         main_div.id = "vai_maindiv";
         let prod_img = document.createElement('img');
@@ -24,12 +24,12 @@ function showProd(data, index) {
         rate_img.src = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNC4zMTYiIGhlaWdodD0iMjMuMTI2IiB2aWV3Qm94PSIwIDAgMjQuMzE2IDIzLjEyNiI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6I2ZkYjY1ZDt9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImEiIGQ9Ik0xMi4xNTgsMS4zMThsMy43NTcsNy42MTMsOC40LDEuMjIxLTYuMDc5LDUuOTI1LDEuNDM1LDguMzY3LTcuNTE0LTMuOTUtNy41MTQsMy45NSwxLjQzNS04LjM2N0wwLDEwLjE1Miw4LjQsOC45MzFaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIC0xLjMxOCkiLz48L3N2Zz4=";
         info_div2.append(price, rating, rate_img);
         let info = document.createElement('h3');
-        info.textContent = Name;
+        info.textContent = name;
         let del = document.createElement('button');
         del.id = "vai_delbtn";
         del.onclick = () => {
             cart_data.splice(index, 1);
-            localStorage.setItem('cart_data', JSON.stringify(cart_data));
+            localStorage.setItem('cart_section', JSON.stringify(cart_data));
             location.reload();
         }
         del.textContent = "Delete";
@@ -80,6 +80,9 @@ function showOrder(data) {
         let last_total = document.createElement('h3');
         last_total.textContent = `${tp + 129}`;
         last_tpicediv.append(total, last_total);
+        let PSum= tp+129
+        localStorage.setItem("Tsum",JSON.stringify(PSum))
+        console.log(PSum)
         //proceed to checkout button
         let proc_btn = document.createElement('button');
         proc_btn.onclick = () => {

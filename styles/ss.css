@@ -6,8 +6,7 @@
   position: relative;
   margin: auto;
   height: 320px;
- 
-  margin-top: 50px;
+  /* margin-top: 50px; */
   cursor: pointer;
   overflow: hidden;
 }
