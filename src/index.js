@@ -24,7 +24,7 @@ app.use('/product',productController); //product/:cat for the catogery of the pr
 app.use('/user',userController);
 
 app.get("",  (req, res) => {
-    res.sendFile(path.join(__dirname, '../src', 'index.html'));
+    res.sendFile(path.join(__dirname, 'index.html'));
 
   });
 
