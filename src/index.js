@@ -23,6 +23,9 @@ app.use('/product',productController); //product/:cat for the catogery of the pr
 
 app.use('/user',userController);
 
+app.get("",  (req, res) => {
+    return res.send("started");
+  });
 
 
 app.listen(process.env.PORT || 2400, '0.0.0.0'
