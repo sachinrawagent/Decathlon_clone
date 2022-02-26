@@ -1,0 +1,1775 @@
+/* this is shakti's stylesheet */
+#maincontainer {
+  width: 100%;
+}
+.dev_container {
+  display: flex;
+  color: white;
+  background-color: black;
+  width: 100%;
+  height: 70px;
+  column-gap: 100px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.dev_container > div {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+
+  column-gap: 50px;
+
+  margin-top: 22px;
+  margin-left: 150px;
+}
+#dev_box1 {
+  display: flex;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  width: 100%;
+  height: 40px;
+  margin-top: 0px;
+  justify-content: space-around;
+
+  column-gap: 10px;
+}
+
+#dev_box3 {
+  font-size: 15px;
+  margin-top: 0.5%;
+
+  /* margin-left: 400px; */
+}
+
+#dev_box2 {
+  /* margin-left: 550px; */
+  margin-top: 0.5%;
+  font-size: 15px;
+  text-decoration: none;
+}
+#dev_box4 {
+  color: red;
+  font-size: 15px;
+}
+#dev_box41 {
+  color: red;
+  font-size: 15px;
+}
+#dev_box5 {
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.dev_hr {
+  margin-top: 0px;
+  color: black;
+  margin-bottom: -1.51px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type="text"] {
+  padding: 5px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 50%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+#container {
+  width: 100%;
+}
+#saj-offer {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  background-color: #fbfbfb;
+  float: left;
+}
+#saj-offer:hover {
+  color: tomato;
+}
+
+/* #saj-h1{
+          width: 100%;
+          border: 1px solid red;
+          height: 100px;
+          background-color: #ebebeb;
+      } */
+#saj-h1 {
+  width: 100%;
+}
+
+#saj-both {
+  width: 80%;
+  /* border: 1px solid green; */
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+}
+#saj-filter {
+  width: 21%;
+  /* border: 1px solid blue; */
+  margin-right: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#saj-products {
+  width: 75%;
+  /* border: 1px solid brown; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#saj-productdiv {
+  width: 23%;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+#saj-productdiv:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#saj-productdiv:hover > button {
+  padding: 10px 0px;
+  visibility: visible;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: wrap;
+  font-size: 25px;
+
+  background-color: #c71432;
+  color: white;
+  font-weight: bold;
+}
+#saj-addtocart {
+  visibility: hidden;
+}
+#saj-img {
+  width: 100%;
+}
+
+/* #saj-productdiv:hover>#saj-addtocart>#saj-addh1{
+         width: 100%;
+         height: 50px;
+       
+         background-color: #c71432;
+
+      } */
+#saj-smalldiv {
+  display: flex;
+  justify-content: start;
+}
+#saj-name {
+  font-size: 23px;
+  margin-left: 15px;
+}
+#saj-strike {
+  text-decoration: line-through;
+  font-size: 20px;
+}
+#saj-price {
+  font-size: 20px;
+  margin-right: 10px;
+  margin-left: 15px;
+}
+#saj-sorting {
+  width: 80%;
+  border: 1px solid red;
+  margin: auto;
+  height: 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+#saj-selection {
+  width: 20%;
+  height: 100%;
+  border: 1px solid black;
+  font-size: 30px;
+  color: #59403a;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+#saj-totalpage {
+  display: flex;
+}
+#saj-select1 {
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 20px;
+  background-color: #f6f6f6;
+}
+#saj-view {
+  font-size: 30px;
+  text-align: center;
+  height: 80%;
+  /* border: 1px solid blue; */
+  margin-top: 5px;
+}
+#saj-page {
+  padding: 10px 10px;
+  background-color: #f6f6f6;
+  font-size: 20px;
+  border-radius: 6px;
+  margin-right: 10 px;
+}
+#saj-icon {
+  margin-left: 40px;
+}
+#cartitems {
+  font-size: 30px;
+  margin-left: 98%;
+}
+#saj-cartlength2 {
+  font-size: 14px;
+  font-weight: 900;
+  position: absolute;
+  border: 1px solid #c71432;
+  border-radius: 60%;
+  height: 20px;
+  width: 15px;
+  color: white;
+  background: #c71432;
+}
+
+/* Bhawani's css part is here */
+
+#main_container_div {
+  background-color: rgb(47, 47, 43);
+  font-family: NeuePlakTextRegular;
+  margin-top: 120px;
+}
+#footer_nav {
+  display: flex;
+  width: 75%;
+  color: #ffffff;
+  font-size: 21px;
+  background-color: black;
+  margin: auto;
+}
+#footer_nav > div {
+  margin-right: 2px;
+  width: 100%;
+  color: #ffffff;
+  background-color: rgb(47, 47, 43);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+#nav_one {
+  padding-left: 155px;
+  padding-right: 20px;
+  color: white;
+}
+#nav_two {
+  padding: 0px 20px;
+}
+#nav_three {
+  padding-right: 261px;
+  padding-left: 20px;
+}
+#footer_body {
+  width: 100%;
+  height: 62vh;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+
+  background-color: rgb(52, 53, 48);
+}
+#footer_body > div {
+  padding-top: 15px;
+  line-height: 25px;
+  color: white;
+  line-height: 37px;
+}
+#fb_one {
+  margin-left: 155px;
+}
+#fb_one > div > p {
+  color: rgb(92, 89, 89);
+}
+#fb_two {
+  margin-left: 120px;
+}
+#fb_two > div > p {
+  color: gray;
+}
+#fb_three {
+  margin-left: 80px;
+}
+#fb_three > div > p {
+  color: gray;
+}
+#fb_four {
+  margin-left: 70px;
+}
+#fb_four > p {
+  color: gray;
+}
+
+#footer_body > div > div > p {
+  margin-bottom: 0px;
+}
+
+#btn_footer_97 {
+  padding: 1px 24px;
+  margin-left: 110px;
+  margin-top: 20px;
+  background-color: white;
+  border: 1px solid white;
+}
+#facebook_button_footer {
+  display: flex;
+  height: 20px;
+  padding: 1px 10px;
+  margin-left: 110px;
+  border: transparent;
+
+  background-color: rgb(24, 119, 242);
+  color: white;
+}
+#facebook_logo_footer {
+  border-radius: 50px;
+  margin-right: 7px;
+  padding: 3px;
+  font-size: 8px;
+  color: rgb(24, 119, 242);
+  background-color: white;
+}
+#facebook_para_footer {
+  margin-top: 1px;
+}
+.anchor_tag_footer_page {
+  text-decoration: none;
+  color: white;
+  font-family: NeuePlakTextRegular;
+}
+.anchor_tag_footer_page:hover {
+  text-decoration: underline;
+}
+#sign_up_footer {
+  display: flex;
+
+  /* margin: auto; */
+}
+#red_footer_15 {
+  color: rgb(204, 5, 38);
+}
+#displayflex {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  justify-content: center;
+  background-color: rgb(64, 64, 58);
+}
+#sign_up_footer_h1 {
+  /* padding-left: 430px;
+      padding-top: 35px;
+      padding-bottom: 25px; */
+  font-size: 30px;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  /* margin: auto; */
+  /* margin-left: -60px; */
+  margin-top: 12%;
+}
+#sign_up_footer_button {
+  /* margin-right: 40%; */
+  margin-left: 40px;
+  margin-top: 17%;
+  color: white;
+  border-radius: 10px;
+  border: transparent;
+  background-color: rgb(204, 5, 38);
+  height: 40px;
+  padding: 10px 40px 45px 20px;
+  font-size: 23px;
+  text-align: center;
+}
+#sign_up_footer_button:hover {
+  background-color: rgb(216, 31, 62);
+}
+#right_arrow_footer {
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: 15px;
+  /* font-size: 20px; */
+  color: rgb(204, 5, 38);
+  background-color: white;
+}
+#sign_up_footer_button_p_tag {
+  margin: auto;
+}
+#footer_img_bottom {
+  width: 40%;
+  height: 80px;
+}
+#footer_img_bottom_div {
+  /* background-color: rgb(52,53,48); */
+  background-color: rgb(47, 47, 43);
+  /* margin-left: 20%; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+#footer_bottom_text {
+  display: flex;
+  /* background-color: rgb(52,53,48); */
+  background-color: rgb(47, 47, 43);
+  /* padding-left: 330px; */
+  color: rgb(175, 179, 174);
+  font-family: footer_bottom_text_image;
+  justify-content: center;
+  margin-top: 140px;
+  font-size: 20px;
+}
+#footer_bottom_text_image {
+  margin-top: 10px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+/* debashish css */
+
+.heading_div {
+  height: 30px;
+  /* border: 1px solid rgb(132, 0, 255); */
+  display: flex;
+  background-color: rgb(191, 191, 191);
+  margin-bottom: 3%;
+  margin-top: 4%;
+  width: 97%;
+  padding-left: 3%;
+}
+/* .heading_left{
+          width: 260px;
+          border: 1px solid rgb(231, 17, 167);
+
+
+      } */
+.para {
+  margin-top: 0%;
+  padding: 2%;
+  /* border: 1px solid rgb(231, 17, 167); */
+  width: 200%;
+  padding-top: 9%;
+}
+.arrow {
+  width: 35px;
+  /* border: 1px solid yellow; */
+  padding-left: 2%;
+  margin-left: 70%;
+}
+.category_arrow {
+  width: 30px;
+  /* border: 1px solid yellow; */
+  padding-left: 2%;
+  /* margin-left: 100%; */
+  /* margin-right: 4%; */
+}
+
+.category_para {
+  margin-top: 0%;
+  padding-top: 0%;
+}
+.check_box2 {
+  margin-top: -10px;
+}
+.product_arrow {
+  width: 35px;
+  /* border: 1px solid yellow; */
+  padding-left: 2%;
+  margin-left: 55%;
+}
+.category_arrow {
+  width: 30px;
+  /* border: 1px solid yellow; */
+  padding-left: 2%;
+  margin-left: 130px;
+}
+.view_more {
+  margin-top: -5%;
+}
+.size_arrow {
+  width: 25px;
+  /* border: 1px solid yellow; */
+  padding-left: 2%;
+  margin-left: 81%;
+}
+.sizes {
+  display: grid;
+  grid-template-rows: 20px 20px;
+  grid-template-columns: 30px 30px 30px;
+  grid-row-gap: 20px;
+  grid-column-gap: 20%;
+}
+.sizes > div {
+  border: 1px solid black;
+  font-size: 20px;
+  border-radius: 10px;
+  /* height: 80px; */
+  width: 130%;
+  font-size: 20px;
+  height: 25px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.sizes > div > p {
+  text-align: center;
+  margin-top: 0%;
+  padding-top: 5px;
+  font-size: 17px;
+}
+.size_view_more {
+  margin-top: 4%;
+}
+.colour_arrow {
+  width: 25px;
+  /* border: 1px solid yellow; */
+  padding-left: 2%;
+  margin-left: 70%;
+}
+.colours {
+  display: grid;
+  grid-template-rows: 20px 20px;
+  grid-template-columns: 30px 30px 30px;
+  grid-row-gap: 20px;
+  grid-column-gap: 20%;
+}
+
+.colours > div > p {
+  text-align: center;
+  margin-top: 0%;
+  padding-top: 5px;
+  font-size: 17px;
+}
+.colours > div {
+  border: 1px solid black;
+  font-size: 20px;
+  border-radius: 10px;
+  /* height: 80px; */
+  width: 130%;
+  font-size: 20px;
+  height: 25px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.colours_one {
+  background-color: rgb(255, 255, 204);
+}
+.colours_two {
+  background-color: black;
+}
+.colours_three {
+  background-color: rgb(0, 0, 255);
+}
+.colours_four {
+  background-color: rgb(179, 0, 0);
+}
+.colours_five {
+  background-color: yellow;
+}
+.colours_six {
+  background-color: rgb(0, 153, 0);
+}
+.colours_seven {
+  background-color: rgb(115, 115, 115);
+}
+.colours_eight {
+  background-color: rgb(128, 0, 0);
+}
+.collection_view_more {
+  margin-top: -4%;
+}
+.collection_arrow {
+  width: 25px;
+  /* border: 1px solid yellow; */
+  padding-left: 2%;
+  margin-left: 60%;
+}
+.sports_arrow {
+  width: 25px;
+  /* border: 1px solid yellow; */
+  padding-left: 2%;
+  margin-left: 73%;
+}
+.technology_arrow {
+  width: 25px;
+  /* border: 1px solid yellow; */
+  padding-left: 2%;
+  margin-left: 58%;
+}
+.price_check_box {
+  background-color: rgb(219, 216, 216);
+  width: 100%;
+  /* padding-top: 4%; */
+  display: flex;
+  height: 47%;
+}
+.price_arrow {
+  width: 27px;
+  /* border: 1px solid yellow; */
+  padding-left: 4%;
+  margin-left: 60%;
+  /* height: 70%; */
+  margin-top: -2%;
+  padding-top: 0%;
+}
+.price_bar {
+  height: 14px;
+  width: 70%;
+  background-color: rgb(153, 0, 0);
+  margin-left: 6%;
+  margin-top: 0%;
+  border-radius: 5px;
+}
+.price {
+  display: flex;
+  margin-top: 10%;
+}
+.price_one {
+  height: 30px;
+  width: 20%;
+  border: 1px solid black;
+  margin-left: 4%;
+  border-radius: 4px;
+}
+.price_two {
+  height: 30px;
+  width: 30%;
+  border: 1px solid black;
+  margin-left: 30px;
+  border-radius: 4px;
+}
+.price_para {
+  margin-top: 8%;
+  padding-left: 8%;
+}
+.range {
+  margin-left: 40px;
+}
+.discount_arrow {
+  margin-left: 75%;
+}
+.category_arrow {
+  margin-left: 65%;
+}
+
+/* 
+     cursor for nav bar  */
+.saj-movetomen,
+.store,
+.saj-movetowomen,
+.saj-movetokids,
+.saj-reebok,
+.sale {
+  cursor: pointer;
+}
+/*////////////////////////////////////////////****************************navbar css for products**********/
+/* #svmain{
+    border: 1px solid red;
+    /* width: 100%; */
+/* height: 70px;
+    display: flex;
+} */
+body {
+  margin: 0px;
+}
+
+* {
+  font-family: Roboto condensed, Arial, Helvetica, sans-serif;
+  color: #424453;
+  text-decoration: none solid #424453;
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; */
+}
+
+#svdelivery5 {
+  /* border: 1px solid red; */
+  height: 40px;
+  width: 10%;
+  margin-top: 1%;
+  /* margin-left: 30%; */
+  cursor: pointer;
+  color: white;
+}
+
+#svSign6 {
+  /* border: 1px solid gray;  */
+  height: 40px;
+  width: 10%;
+  margin-top: 0.5%;
+  /* margin-left: 1%; */
+  margin-right: 3%;
+  cursor: pointer;
+}
+
+#sv_mystore7 {
+  /* border: 1px solid gray; */
+  height: 40px;
+  width: 10%;
+  margin-top: 1%;
+  /* margin-left: 1%; */
+  cursor: pointer;
+}
+
+#svsupport8 {
+  /* border: 1px solid gray; */
+  height: 40px;
+  width: 10%;
+  margin-top: 1%;
+  /* margin-left: 1%; */
+  cursor: pointer;
+}
+
+#svcart9 {
+  /* border: 1px solid gray; */
+  height: 40px;
+  width: 10%;
+  margin-top: 1%;
+  /* margin-left: 1%; */
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.acount {
+  /* display: none; */
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+/* ===================================================================login/Signup================================================================================== */
+.loginOrSignup {
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#loginContent {
+  width: 648px;
+  margin: 5% 30%;
+  background-color: white;
+  display: flex;
+}
+
+#cross {
+  height: 100px;
+  color: rgba(128, 128, 128, 0.377);
+  cursor: pointer;
+}
+
+#loginArea {
+  display: flex;
+  width: 598px;
+  height: 300px;
+  padding: 20px;
+  /* justify-content: space-between; */
+}
+
+#signMo>button {
+  height: 48px;
+  /* width: 257px; */
+  font-size: 14px;
+  color: white;
+  background-color: black;
+  /* border: red; */
+}
+
+#signMo>button:hover {
+  background-color: #9b9b9b;
+  cursor: pointer;
+}
+
+#close {
+  display: flex;
+}
+
+#logIn {
+  height: 216px;
+}
+
+#logInDes {
+  height: 48px;
+  font-size: 16px;
+  margin: 5px 0px;
+}
+
+#logIn button {
+  height: 48px;
+
+  font-size: 14px;
+  color: black;
+  background-color: white;
+  border: 1px solid rgba(128, 128, 128, 0.527);
+  /* margin-bottom: 5px; */
+}
+
+#logIn button:hover {
+  background-color: #9b9b9b;
+  cursor: pointer;
+}
+
+#seconddiv {
+  height: 100%;
+  width: 50%;
+}
+
+#firstone {
+  background-color: rgb(244, 244, 244);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  height: 370px;
+  width: 330px;
+}
+
+#sh3 {
+  color: #9b9b9b;
+  padding-left: 20px;
+}
+
+#s1h {
+  font: 1em sans-serif;
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+#s2h {
+  font: 1em sans-serif;
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+#s3h {
+  font: 1em sans-serif;
+  font-size: 25px;
+  padding-left: 20px;
+  color: skyblue;
+}
+
+#s4h {
+  font: 1em sans-serif;
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+#img {
+  margin-left: 70%;
+}
+
+#newwala {
+  margin-top: 120px;
+  margin-right: 20%;
+}
+
+#btn {
+  border: 1px solid transparent;
+  height: 0px;
+  width: 0px;
+  margin-right: 20px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Signup Page~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~` */
+body {
+  font-family: sans-serif;
+}
+
+.logUp {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#logUpContent {
+  width: 648px;
+  height: 370px;
+  margin: 5% 30%;
+  background-color: white;
+}
+
+#back {
+  padding: 30px;
+  color: rgba(128, 128, 128, 0.377);
+  cursor: pointer;
+}
+
+#backed {
+  display: flex;
+  justify-content: space-between;
+}
+
+#Flex {
+  display: flex;
+}
+
+#Flex>div {
+  width: 300px;
+  margin: 10px 30px;
+}
+
+.us1 {
+  height: 57px;
+  width: 260px;
+  margin-bottom: 10px;
+  background-color: rgba(128, 128, 128, 0.247);
+  color: gray;
+  cursor: pointer;
+}
+
+.us1:hover {
+  border-bottom: 1px solid rgb(247, 12, 208);
+}
+
+.us2 {
+  font-size: 12px;
+  color: gray;
+  padding: 10px 0px 0px 10px;
+  cursor: pointer;
+}
+
+.us3>input {
+  height: 24px;
+  width: 200px;
+  border: transparent;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.us3 {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#signUp>button {
+  height: 50px;
+  width: 260px;
+  margin-left: 200px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(0, 130, 195);
+  border: transparent;
+}
+
+#signUp>button:hover {
+  background-color: rgb(228, 30, 168);
+  cursor: pointer;
+}
+
+#gbsignIn {
+  text-align: center;
+  margin: 10px;
+  cursor: pointer;
+  color: gray;
+}
+
+#gbsignIn:hover {
+  color: black;
+}
+
+/* ==================================================================sign in page================================================================================= */
+
+body {
+  font-family: sans-serif;
+}
+
+.Signin {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#SigninContent {
+  width: 648px;
+  height: 390px;
+  margin: 5% 30%;
+  background-color: white;
+}
+
+#Crosser {
+  padding: 30px;
+  color: rgba(128, 128, 128, 0.377);
+  cursor: pointer;
+}
+
+#Closer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#techno {
+  display: flex;
+}
+
+#email {
+  margin: 0px 100px 0px 20px;
+}
+
+.us4 {
+  height: 57px;
+  width: 260px;
+  margin-bottom: 10px;
+  background-color: rgba(128, 128, 128, 0.247);
+  color: gray;
+  cursor: pointer;
+}
+
+.us4:hover {
+  border-bottom: 1px solid rgb(247, 12, 208);
+}
+
+.us5 {
+  font-size: 12px;
+  color: gray;
+
+  cursor: pointer;
+}
+
+.us6>input {
+  height: 24px;
+  width: 200px;
+  border: transparent;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#signInn>button {
+  margin-top: 10%;
+  height: 50px;
+  width: 260px;
+  margin-left: 200px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(0, 130, 195);
+  border: transparent;
+}
+
+#signInn>button:hover {
+  background-color: rgb(228, 30, 168);
+  cursor: pointer;
+}
+
+/* ==================================================================Address page================================================================================= */
+
+#grate {
+  background-color: #f8f9f9;
+}
+
+#navibar {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
+}
+
+#logoed1 {
+  width: 15%;
+  height: 30px;
+  margin-top: 10px;
+}
+
+#logoed2 {
+  width: 15%;
+  height: 30px;
+  margin-top: 10px;
+}
+
+#logoed3 {
+  width: 15%;
+  height: 30px;
+  margin-top: 5px;
+}
+
+#piu {
+  padding-left: 5px;
+}
+
+#piuu {
+  padding-left: 5px;
+}
+
+#delly {
+  font: icon;
+}
+
+#delly:hover {
+  color: rgba(0, 128, 0, 0.486);
+}
+
+/* navar */
+
+#overil {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 1000px;
+  display: flex;
+}
+
+#maini {
+  border: 1px solid transparent;
+  width: 30%;
+  height: 600px;
+  margin-left: 25%;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-top: 1%;
+}
+
+#submaini {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 35px;
+  background-color: #ebf8ff;
+  border-radius: 5px;
+}
+
+#unmaini {
+  border: 0.5px gray;
+  width: 100%;
+  height: 601px;
+  /* margin-top: 20px; */
+  border-radius: 1%;
+}
+
+#ini1 {
+  border: 1px solid transparent;
+  text-decoration: underline;
+  margin-left: 20px;
+  height: 30px;
+}
+
+#ini2 {
+  border: 1px solid transparent;
+  text-decoration: underline;
+  padding-left: 20px;
+  height: 30px;
+}
+
+#ini3 {
+  border: 1px solid transparent;
+  text-decoration: underline;
+  margin-top: 10px;
+  padding-left: 25px;
+  height: 30px;
+}
+
+#ini4 {
+  border: 1px solid transparent;
+  text-decoration: underline;
+  padding-left: 25px;
+  height: 30px;
+}
+
+#ini5 {
+  border: 1px solid transparent;
+  text-decoration: underline;
+  padding-left: 25px;
+  height: 30px;
+}
+
+#ini6 {
+  border: 1px solid transparent;
+  text-decoration: underline;
+  margin-top: 10px;
+  padding-left: 20px;
+  height: 30px;
+}
+
+#ini7 {
+  border: 1px solid transparent;
+  text-decoration: underline;
+  padding-left: 20px;
+  height: 30px;
+}
+
+#ini8 {
+  border: 1px solid transparent;
+  text-decoration: underline;
+  padding-left: 15px;
+  height: 30px;
+}
+
+#ini9 {
+  margin-left: 20px;
+}
+
+#home {
+  margin-left: 10px;
+}
+
+p {
+  padding-left: 25px;
+  font-weight: bold;
+}
+
+p1 {
+  padding: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* #cheak{
+margin-bottom: 100px;
+} */
+#ini9 {
+  padding-left: 20px;
+}
+
+#battu {
+  /* border: 1px solid red; */
+  width: 90%;
+  height: 35px;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-left: 20px;
+  background-color: rgb(39, 76, 199);
+  color: white;
+}
+
+#battu2 {
+  width: 90%;
+  height: 35px;
+  padding-left: 10px;
+  margin-left: 20px;
+  background-color: rgb(253, 223, 48);
+  /* margin-top: 10px; */
+  border-radius: 5px;
+}
+
+#chotelogo {
+  width: 40%;
+  height: 400px;
+  margin-top: 27%;
+  margin-left: 2%;
+}
+
+/* /vaibhav code */
+#svmain {
+  display: flex;
+  /* border: 1px solid red; */
+  width: 99%;
+  /* width: 100%; */
+  height: 70px;
+  margin-left: 10px;
+  background-color: rgb(0, 121, 186);
+  /* position: fixed; */
+  
+}
+
+#svmain>div {
+  /* border: 1px solid white; */
+  margin-left: 25px;
+}
+
+/* this is for the logo of decalthon website */
+#dec_logo {
+  border: 1px solid white;
+  margin-top: 11px;
+  width: 100%;
+  /* padding: 4%; */
+  cursor: pointer;
+  height: 55px;
+  /* margin-left: 5px; */
+}
+
+#vai_logo>#dec_logo {
+  border: 1px solid white;
+  width: 150px;
+  height: 40px;
+  margin-top: 15px;
+}
+
+/* this is for the click on the all sports */
+#vai_cat_click {
+  display: none;
+  border: 1px solid black;
+  margin-top: 4px;
+  width: 95%;
+}
+
+#vai_sports {
+  cursor: pointer;
+ 
+}
+
+#vai_sports>p {
+  color: rgb(255, 250, 244);
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+#show_sport {
+  display: flex;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#show_sport>p {
+  /* border: 1px solid red; */
+  margin-left: 15px;
+  cursor: pointer;
+  /* width: 20%; */
+}
+
+#show_sport>p:hover {
+  border-bottom: 3px solid rgb(0, 121, 186);
+  color: rgb(0, 121, 186);
+  transition: border-bottom 1ms, color 1ms;
+}
+
+/* this is for the search */
+/* #vai_search {
+    width: 40%;
+} */
+#vai2_search {
+  /* border: 1px solid red; */
+  width: 450px;
+  display: flex;
+  margin-left: 5px;
+  height: 5
+  0px;
+  
+}
+
+#vai_search>div {
+  display: flex;
+}
+
+#vai_srchitem {
+  /* border: 1px solid red; */
+  width:100%;
+  height: 40px;
+  margin-top: 13px;
+  border-radius: 10px;
+}
+
+#vai_icon {
+  width: 8%;
+  margin-top: 15px;
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+/* sahil navbar code */
+
+/* /////////////////////////////////////////////popupcode/////////////////// */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ///////////////////////////////////delivery////////////////////// */
+#sac-cont {
+  display: flex;
+  height: 400px;
+  width: 60%;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 7px;
+}
+
+#sac-1 {
+  height: 100%;
+  width: 50%;
+  /* border: 1px solid red; */
+  background-color: rgb(243, 243, 243);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#sac-2 {
+  height: 100%;
+  width: 65%;
+  margin-left: 4%;
+  /* border: 1px solid blue; */
+}
+
+.sac-1 {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.sac-2 {
+  height: 60%;
+  width: 100%;
+  /* border: 1px solid olivedrab; */
+}
+
+#sac-img {
+  margin-top: 5%;
+  margin-left: 9%;
+}
+
+.sac-4 {
+  height: 30%;
+  width: 80%;
+  /* border: 1px solid pink; */
+  background-color: rgb(243, 243, 243);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#sac-btn {
+  background-color: rgb(0, 130, 195);
+  width: 75%;
+  margin: auto;
+  border-radius: 3%;
+  height: 30%;
+  margin-left: 4%;
+  color: white;
+  border-radius: 5px;
+}
+
+#sac-p {
+  text-align: center;
+}
+
+.sac-3 {
+  height: 30%;
+  width: 80%;
+  /* border: 1px solid transparent;  */
+  background-color: #f4f4f4;
+  margin-top: 3%;
+}
+
+#sac-btn2 {
+  margin-left: 2%;
+  border-radius: 4%;
+  background-color: rgb(0, 130, 195);
+  width: 20%;
+  text-align: center;
+  color: white;
+  height: 30%;
+  border-radius: 7px;
+}
+
+#sac-pin {
+  margin-left: 4%;
+  height: 30px;
+  border-radius: 5;
+}
+
+#sac-cont {
+  display: flex;
+  height: 400px;
+  width: 60%;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 7px;
+}
+
+#sac-1 {
+  height: 100%;
+  width: 50%;
+  /* border: 1px solid red; */
+  background-color: rgb(243, 243, 243);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#sac-2 {
+  height: 100%;
+  width: 65%;
+  margin-left: 4%;
+  /* border: 1px solid blue; */
+}
+
+.sac-1 {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.sac-2 {
+  height: 60%;
+  width: 100%;
+  /* border: 1px solid olivedrab; */
+}
+
+#sac-img {
+  margin-top: 5%;
+  margin-left: 9%;
+}
+
+.sac-4 {
+  height: 30%;
+  width: 80%;
+  /* border: 1px solid pink; */
+  background-color: rgb(243, 243, 243);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#sac-btn {
+  background-color: rgb(0, 130, 195);
+  width: 75%;
+  margin: auto;
+  border-radius: 3%;
+  height: 30%;
+  margin-left: 4%;
+  color: white;
+  border-radius: 5px;
+}
+
+#sac-p {
+  text-align: center;
+}
+
+.sac-3 {
+  height: 30%;
+  width: 80%;
+  /* border: 1px solid transparent;  */
+  background-color: #f4f4f4;
+  margin-top: 3%;
+}
+
+#sac-btn2 {
+  margin-left: 2%;
+  border-radius: 4%;
+  background-color: rgb(0, 130, 195);
+  width: 20%;
+  text-align: center;
+  color: white;
+  height: 30%;
+  border-radius: 7px;
+}
+
+#sac-pin {
+  margin-left: 4%;
+  height: 30px;
+  border-radius: 5;
+}
+
+#sac-cont {
+  display: flex;
+  height: 400px;
+  width: 60%;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 7px;
+}
+
+#sac-1 {
+  height: 100%;
+  width: 50%;
+  /* border: 1px solid red; */
+  background-color: rgb(243, 243, 243);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#sac-2 {
+  height: 100%;
+  width: 65%;
+  margin-left: 4%;
+  /* border: 1px solid blue; */
+}
+
+.sac-1 {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.sac-2 {
+  height: 60%;
+  width: 100%;
+  /* border: 1px solid olivedrab; */
+}
+
+#sac-img {
+  margin-top: 5%;
+  margin-left: 9%;
+}
+
+.sac-4 {
+  height: 30%;
+  width: 80%;
+  /* border: 1px solid pink; */
+  background-color: rgb(243, 243, 243);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#sac-btn {
+  background-color: rgb(0, 130, 195);
+  width: 65%;
+  /* margin: auto; */
+  border-radius: 3%;
+  height: 30%;
+  color: white;
+  border-radius: 5px;
+}
+
+#sac-p {
+  text-align: center;
+}
+
+.sac-3 {
+  height: 30%;
+  width: 80%;
+  /* border: 1px solid transparent;  */
+  background-color: #f4f4f4;
+  margin-top: 3%;
+}
+
+#sac-btn2 {
+  margin-left: 2%;
+  border-radius: 4%;
+  background-color: rgb(0, 130, 195);
+  width: 20%;
+  text-align: center;
+  color: white;
+  height: 30%;
+  border-radius: 7px;
+}
+
+#sac-pin {
+  margin-left: 4%;
+  height: 30px;
+  border-radius: 5;
+}
+
+#myBtn {
+  border: 1px solid transparent;
+  width: 0px;
+  height: 0px;
+  color: white;
+}
+
+#svdelivery5 {
+  color: white;
+  font-size: small;
+}
+
+* {
+  font-family: Roboto condensed, Arial, Helvetica, sans-serif;
+  color: #424453;
+  text-decoration: none solid #424453;
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; */
+}
+
+#sv_mystore7 {
+  color: white;
+}
+
+body {
+  margin: 0px;
+}
+
+#btn {
+  background-color: #0079ba;
+  margin-bottom: 50px;
+}
+
+#myBtn {
+  background-color: #0079ba;
+}
+#cardii{
+  /* border: 1px solid red; */
+  height: 70%;
+  width: 60%;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+/* #vai_logo{
+  border: 1px solid white;
+ 
+  text-align:center;
+ /* padding-top: 10px; */
+ /* height: 50%;
+ margin: auto; */

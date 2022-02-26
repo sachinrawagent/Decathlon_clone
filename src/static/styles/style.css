@@ -1,0 +1,92 @@
+#svmain {
+    display: flex;
+    border: 1px solid red;
+    width: 100%;
+    /* width: 100%; */
+    height: 70px;
+    margin-left: 10px;
+    background-color: rgb(0, 121, 186);
+    position: fixed;
+}
+
+#svmain>div {
+    /* border: 1px solid white; */
+    margin-left: 25px;
+}
+
+/* this is for the logo of decalthon website */
+#dec_logo {
+    border: 1px solid white;
+    margin-top: 9px;
+    width: 77%;
+    padding: 4px;
+    cursor: pointer;
+    margin-left: 15px;
+
+}
+
+#vai_logo>#dec_logo {
+    border: 1px solid white;
+}
+
+/* this is for the click on the all sports */
+#vai_cat_click {
+    display: none;
+    border: 1px solid black;
+    margin-top: 4px;
+    width: 95%;
+}
+
+#vai_sports {
+    cursor: pointer;
+}
+
+#vai_sports>p {
+    color: rgb(255, 250, 244);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#show_sport {
+    display: flex;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#show_sport>p {
+    /* border: 1px solid red; */
+    margin-left: 15px;
+    cursor: pointer;
+    /* width: 20%; */
+}
+
+#show_sport>p:hover {
+    border-bottom: 3px solid rgb(0, 121, 186);
+    color: rgb(0, 121, 186);
+    transition: border-bottom 1ms, color 1ms;
+}
+
+/* this is for the search */
+#vai_search {
+    width: 32%;
+}
+
+#vai_search>div {
+    display: flex;
+}
+
+#vai_srchitem {
+    width: 97%;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+
+#vai_icon {
+    width: 8%;
+    margin-top: 13px;
+    cursor: pointer;
+}
+
+/* sahil navbar code */

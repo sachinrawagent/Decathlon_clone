@@ -14,6 +14,7 @@ const { register, login } = require("./controller/auth.controller");
 
 app.use(express.json());
 app.use(cors());
+app.use('/', express.static(path.join(__dirname, 'static')))
 
 app.post("/register", register);
 
@@ -22,12 +23,6 @@ app.post("/login", login);
 app.use('/product',productController); //product/:cat for the catogery of the product
 
 app.use('/user',userController);
-
-app.get("",  (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'));
-
-  });
-
 
 app.listen(process.env.PORT || 2400, '0.0.0.0'
 ,async ()=>{

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/footer.css"> <!-- link css -->
+</head>
+
+<body>
+    <div id="footer"></div> <!-- make a div with id footer -->
+</body>
+
+</html>
+<script type="module">
+
+    import footer from './components/footer.js';     //import the footer
+
+    var div = document.querySelector("#footer")
+
+    div.innerHTML = footer();
+
+</script>

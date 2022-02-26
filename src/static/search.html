@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="icon" style="height: 10px;" href="./images/Screenshotlogo.png" type="image/jpg">
+  <link rel="stylesheet" href="./styles/search.css">
+  <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+
+
+  <!-- navbar -->
+  <div id="svmain">
+    <div id="vai_sports">
+      <p>ALL<br />SPORTS</p>
+  
+      <div id="vai_cat_click">
+        <!-- <p>This is sports</p> -->
+      </div>
+    </div>
+    <div id="vai_logo">
+      <!-- <h3>Logo_of_decalthon</h3> -->
+    </div>
+    <div id="vai_search">
+      <div id="vai2_search">
+        <input type="text" id="vai_srchitem" placeholder="Search sport and product" />
+        <!-- <img id="vai_icon" src="https://img.icons8.com/material-outlined/24/000000/search--v1.png"/> -->
+      </div>
+    </div>
+    <div id="svdelivery5">
+      <span style="color: white; font-weight: 15px">delivery location<br /></span>
+      <button id="myBtn">Change</button>
+  
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div id="sac-cont">
+            <div id="sac-1">
+              <div class="sac-1">
+                <h1 style="font-weight: lighter">LOCATION</h1>
+                <h4>
+                  Select your location/address to see<br />
+                  accurate product delivery date
+                </h4>
+              </div>
+              <div class="sac-2">
+                <img id="sac-img"
+                  src="https://cdncontent.decathlon.in/_next/static/images/deliverytruck-c40a8b92f5392fe19b284856137c64bd.svg" />
+              </div>
+            </div>
+            <div id="sac-2">
+              <h3 id="sac-h">SELECT ADDRESS</h3>
+              <div class="sac-4">
+                <h4 style="margin-left: 4%">
+                  Login to view your saved delivery address
+                </h4>
+                <button id="sac-btn" onclick="logiii()">LOGIN</button>
+              </div>
+              <p id="sac-p">OR</p>
+              <h3 id="sac-h4">PINCODE</h3>
+              <div class="sac-3">
+                <p style="margin-left: 4%">Enter a pincode</p>
+                <span><input type="number" id="sac-pin" placeholder="enter pin" /><button id="sac-btn2" onclick="apply()">
+                    APPLY
+                  </button></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="svSign6">
+      <button id="btn" style="color: white" onclick="login()">
+        <img src="./image/Screenshot 4.png" alt="" height="50" width="60" />
+      </button>
+    </div>
+    <div id="sv_mystore7">
+      <img src="./image/Screenshot 2.png" alt="" height="50px" /><br />
+      <a href="My store.html" style="color: white"></a>
+    </div>
+    <div id="svsupport8">
+      <img src="./images/Screenshot.png" alt="" height="50" width="60" />
+    </div>
+    <div id="svcart9">
+      <a href="cart.html" style="color: white">
+        <img src="./image/Screenshot 5.png" alt="" height="50" width="50" /></a>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- endshere -->
+
+  <div id="vai_container">
+    <div id="vai_filter">
+      <h3>Filter</h3>
+      <div>
+        <p>Price</p>
+        <input type="checkbox" name="" id="low" class="val" value="low_price">
+        <label for="">Low to High</label>
+      </div>
+      <div>
+        <input type="checkbox" name="" id="high" class="val" value="high_price">
+        <label for="">High to Low</label>
+      </div>
+      <div>
+        <p>Rating</p>
+        <input type="checkbox" name="" id="rate_high" class="val" value="rate_high">
+        <label for="">High to Low</label>
+      </div>
+      <div>
+        <input type="checkbox" name="" id="rate_low" value="rate_low" class="val">
+        <label for="">High to Low</label>
+      </div>
+      <div>
+        <p>Sport</p>
+        <input type="checkbox" name="" id="rate_high" class="val" value="Adidas">
+        <label for="">Adidas</label>
+      </div>
+      <div>
+        <input type="checkbox" name="" id="rate_high" class="val" value="Nike">
+        <label for="">Nike</label>
+      </div>
+
+      <div id="vai_filter_div">
+        <button id="vai_apply_filter" onclick="filter()">Apply Filter</button>
+      </div>
+    </div>
+    
+    <div id="vai_show"></div>
+    <div id="vai_pagination"></div>
+
+  </div>
+</body>
+
+</html>
+<script src="./scripts/search.js"></script>
+<script src="./scripts//index.js"> 
+</script>
