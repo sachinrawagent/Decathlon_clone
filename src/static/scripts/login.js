@@ -60,7 +60,7 @@ async function signUp() {
         // http://localhost:2400/user/register
         userobj = JSON.stringify(userobj);
 
-        let response = await fetch("http://localhost:2400/register", {
+        let response = await fetch(" https://decathlon-clone.herokuapp.com/register", {
           method: "POST",
 
           body: userobj,
@@ -108,7 +108,7 @@ async function signInfu() {
         }
         userlogin = JSON.stringify(userlogin);
 
-        let response = await fetch("http://localhost:2400/login", {
+        let response = await fetch(" https://decathlon-clone.herokuapp.com/login", {
           method: "POST",
           body: userlogin,
           headers: {
