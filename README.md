@@ -32,9 +32,9 @@ A clone of an e-commerce website where you can buy sports related things like sp
 
 ## Product's Page :
 You can do filtering by price and brand in product page.
-
-<img src="https://i.imgur.com/M5rkehj.png">
-<img src="https://i.imgur.com/CwB79Ua.png">
+At bottom pagination is also there,where you can click any button and able to see next product of that section.
+<img src="https://i.imgur.com/MAzr1kI.png">
+<img src="https://i.imgur.com/rXe1Smx.png">
 <img src="https://i.imgur.com/nGZITms.png">
  
  
